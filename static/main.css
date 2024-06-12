@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+.container{
+    display: flex;
+    background-image: url('./Desktop\ -\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.topic{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.topic-bg{
+    display:flex;
+    width: 1070px;
+    height: 181px;
+    border-radius: 50px 50px 0px 0px;
+    background: #7271FF;
+    align-items: center;
+    justify-content: center;
+}
+.cont-bg{
+    border-radius: 0px 0px 55px 55px;
+    background: #ECECFF;
+    box-shadow: 0px 6px 19px 0px rgba(0, 0, 0, 0.25);
+    width: 1070px;
+    height: 458px;
+}
+.cont{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:2rem 0rem 0rem 2rem;
+}
+.ipt{
+    display: flex;
+    margin:2rem 0rem 0rem 2rem;
+}
+.ipt .txt{
+    width: 826px;
+    height: 69px;
+    fill: #FFF;
+    box-shadow: 5px 7px 2px 0px rgba(0, 0, 0, 0.13) inset;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    border-style: none;
+}
+.bttn{
+    margin: 3rem 0 0 18cm;
+}
+.btn{
+    width: 177px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #7171FF;
+color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-style: none;
+}
